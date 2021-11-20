@@ -6,8 +6,6 @@ x2, y2 = eval(input("Enter x2 and y2 for point 2:"))
 
 # Compute the distance
 distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
-print(x1, y1, ";", x2, y2)
-print(distance)
 
 # Display two point and the connecting line
 turtle.penup()
@@ -22,4 +20,4 @@ turtle.penup()
 turtle.goto((x1 + x2) / 2, (y1 + y2) / 2)
 turtle.write(distance)
 
-turtle.down()
+turtle.done()
