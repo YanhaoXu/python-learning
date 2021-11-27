@@ -9,6 +9,7 @@ def isPrime(number):
 
     return True  # number is prime
 
+
 def printPrimeNumbers(numberOfPrimes):
     NUMBER_OF_PRIMES = 50  # Number of primes to display
     NUMBER_OF_PRIMES_PRE_LINE = 10  # Display 10 per line
@@ -29,8 +30,10 @@ def printPrimeNumbers(numberOfPrimes):
         # Check if the next number is prime
         number += 1
 
+
 def main():
     print("The first 50 prime numbers are")
     printPrimeNumbers(50)
+
 
 main()  # Call the main function
