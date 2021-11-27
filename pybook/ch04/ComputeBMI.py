@@ -15,10 +15,10 @@ bmi = weightInKilograms / heightInMeters ** 2
 # Display result
 print("BMI is", format(bmi, ".2f"))
 if bmi < 18.5:
-  print("Underweight")
+    print("Underweight")
 elif bmi < 25:
-  print("Normal")
+    print("Normal")
 elif bmi < 30:
-  print("Overweight")
+    print("Overweight")
 else:
-  print("Obese")
+    print("Obese")

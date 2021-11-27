@@ -25,9 +25,9 @@ turtle.pendown()
 
 d = ((x2 - x1) * (x2 - x1) + (y2 - y1) * (x2 - x1)) ** 0.5
 if d <= radius:
-  turtle.write("The point is inside the circle")
+    turtle.write("The point is inside the circle")
 else:
-  turtle.write("The point is outside the circle")
+    turtle.write("The point is outside the circle")
 
 turtle.hideturtle()
 
