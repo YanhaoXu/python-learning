@@ -1,3 +1,5 @@
+import random
+
 # Create a deck of cards
 deck = [x for x in range(52)]
 
@@ -7,8 +9,6 @@ ranks = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9",
          "10", "Jack", "Queen", "King"]
 
 # Shuffle the cards
-import random
-
 random.shuffle(deck)
 
 # Display the first four cards
