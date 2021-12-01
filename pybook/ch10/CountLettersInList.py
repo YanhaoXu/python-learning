@@ -1,4 +1,4 @@
-import RandomCharacter
+from pybook.ch06 import RandomCharacter
 
 
 def main():
