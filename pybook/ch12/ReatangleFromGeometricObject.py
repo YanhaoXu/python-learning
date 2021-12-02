@@ -13,7 +13,7 @@ class Rectangle(GeometricObject):
     def setWidth(self, width):
         self.__width = width
 
-    def getheight(self):
+    def getHeight(self):
         return self.__height
 
     def setHeight(self, height):
@@ -22,7 +22,7 @@ class Rectangle(GeometricObject):
     def getArea(self):
         return self.__height * self.__width
 
-    def getPrimeter(self):
+    def getPerimeter(self):
         return (self.__width + self.__height) * 2
 
     def __str__(self):

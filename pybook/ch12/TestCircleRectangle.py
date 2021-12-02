@@ -12,7 +12,7 @@ def main():
     rectangle = Rectangle(2, 4)
     print("\nA rectangle", rectangle)
     print("The area is", rectangle.getArea())
-    print("The perimeter is", rectangle.getPrimeter())
+    print("The perimeter is", rectangle.getPerimeter())
 
 
 main()
