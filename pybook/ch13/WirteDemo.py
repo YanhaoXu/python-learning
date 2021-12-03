@@ -1,4 +1,4 @@
-TEST_PATH = "D:\\DevOps\\testData\\python\\pybook\\ch13\\"
+from pybook.ch13.FIleTestConst import TEST_PATH
 
 
 def main():
