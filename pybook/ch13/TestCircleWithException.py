@@ -1,0 +1,14 @@
+from pybook.ch13.CircleWithException import Circle
+
+try:
+    c1 = Circle()
+    c1.setRadius(5)
+    print("c1's area is", c1.getArea())
+    c2 = Circle()
+    c2.setRadius(-5)
+    print("c2's area is", c2.getArea())
+    c3 = Circle()
+    c3.setRadius(0)
+    print("c3's area is", c3.getArea())
+except RuntimeError:
+    print("Invalid radius")
